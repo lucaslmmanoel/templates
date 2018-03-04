@@ -1,0 +1,32 @@
+body{
+    margin: 0px;
+    padding: 0px;
+        
+}
+#box{
+    background: linear-gradient(35deg,#133863 0%,#9A0794 100%) ;
+    width: 100%;
+    height: 100vh;
+}
+#btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+color: white;
+text-decoration: none;
+font-family: cursive;
+padding: 15px 40px;
+border: 2px solid white;
+outline: 1px solid rgba(233,233,233, .7);
+transition: all .7s;
+}
+
+#btn:hover{
+    text-shadow: 0 0 20px rgba(255, 255,255,.1);
+    box-shadow: inset 0 0 20px rgba(255, 255,255,.2),
+                inset 0 0 20px rgba(255, 255,255,.3),
+                inset 0 0 20px rgba(255, 255,255,.4);
+    outline-color: rgba(255, 255,255,.1);
+    outline-offset: 15px;
+}

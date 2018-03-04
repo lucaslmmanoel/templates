@@ -1,0 +1,27 @@
+body{
+margin: 0px;
+padding: 0px;
+background-color:rgba(238, 232, 180, 0.829);
+
+}
+
+#footer{
+background-size: cover;
+}
+.main{
+width: 75px;
+height:75px;
+position: absolute;
+top: 50%;
+ transform: rotateX(0deg);
+}
+.Facebook{left: 35%;}
+
+.Instagram{left: 41%;}
+
+.Github{left: 47%;}
+
+.Linkedin{left: 53%;}
+
+.Gmail{left: 59%;}
+

@@ -1,0 +1,28 @@
+body{
+
+    margin: 14px;
+    padding: 14px;
+    background-color: whitesmoke;
+}
+div {
+    width: 100vh;
+    height: 400px;
+    background-color: chartreuse;
+   position: relative;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    
+    animation-name: example;
+    animation-duration: 30s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    from {background-color: wheat;}
+    to {background-color:chartreuse;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    from {background-color:wheat;}
+    to {background-color: chartreuse;}
