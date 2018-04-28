@@ -6,7 +6,7 @@ header,
 }
 
 #intro{
-    background: url(https://images.pexels.com/photos/34950/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350) no-repeat center center fixed;
+    background: url(../img/bgimg.jpg) no-repeat center center fixed;
     -webkit-animation-size:cover;
     -moz-animation-size:cover;
     -o-animation-size:cover;
